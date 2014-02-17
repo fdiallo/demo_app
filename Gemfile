@@ -12,7 +12,7 @@ gem 'therubyracer'
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
 
-group :development do
+group :development, :test do
    gem 'sqlite3', '1.3.8'
 end
 
