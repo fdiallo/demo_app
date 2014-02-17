@@ -1,5 +1,5 @@
 DemoApp::Application.routes.draw do
-  # get "users/index"
+  get "users/index"
 
   root 'users#index'
 
